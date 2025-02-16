@@ -1,0 +1,51 @@
+2025/02/16 12:17:50 [error] 3966#0: *1 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:17:53 [error] 3966#0: *1 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET /?param=malicious_value HTTP/1.1", host: "example.com"
+2025/02/16 12:17:56 [error] 3966#0: *1 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:17:58 [error] 3966#0: *1 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:18:02 [error] 3966#0: *1 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET /?param=malicious_value HTTP/1.1", host: "example.com"
+2025/02/16 12:18:06 [error] 3966#0: *1 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:18:08 [info] 3966#0: *1 client 127.0.0.1 closed keepalive connection
+2025/02/16 12:19:31 [notice] 4989#0: signal process started
+2025/02/16 12:19:31 [notice] 3965#0: signal 1 (SIGHUP) received from 4989, reconfiguring
+2025/02/16 12:19:31 [notice] 3965#0: reconfiguring
+2025/02/16 12:19:31 [notice] 3965#0: using the "epoll" event method
+2025/02/16 12:19:31 [notice] 3965#0: start worker processes
+2025/02/16 12:19:31 [notice] 3965#0: start worker process 4991
+2025/02/16 12:19:31 [notice] 3966#0: gracefully shutting down
+2025/02/16 12:19:31 [notice] 3966#0: exiting
+2025/02/16 12:19:31 [notice] 3966#0: exit
+2025/02/16 12:19:31 [notice] 3965#0: signal 17 (SIGCHLD) received from 3966
+2025/02/16 12:19:31 [notice] 3965#0: worker process 3966 exited with code 0
+2025/02/16 12:19:31 [notice] 3965#0: signal 29 (SIGIO) received
+2025/02/16 12:19:40 [error] 4991#0: *2 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:19:45 [error] 4991#0: *2 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:19:47 [error] 4991#0: *2 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:19:49 [error] 4991#0: *2 failed to load external Lua file "/home/continue/Flow-analysis-platform/locust/lua/collect.lua": cannot open /home/continue/Flow-analysis-platform/locust/lua/collect.lua: Permission denied, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:19:49 [info] 4991#0: *2 client 127.0.0.1 closed keepalive connection
+2025/02/16 12:23:41 [emerg] 5407#0: invalid number of arguments in "user" directive in /home/continue/Flow-analysis-platform/locust/nginx.conf:3
+2025/02/16 12:23:54 [emerg] 5443#0: invalid number of arguments in "user" directive in /home/continue/Flow-analysis-platform/locust/nginx.conf:3
+2025/02/16 12:24:11 [notice] 5482#0: signal process started
+2025/02/16 12:24:11 [notice] 3965#0: signal 1 (SIGHUP) received from 5482, reconfiguring
+2025/02/16 12:24:11 [notice] 3965#0: reconfiguring
+2025/02/16 12:24:11 [notice] 3965#0: using the "epoll" event method
+2025/02/16 12:24:11 [notice] 3965#0: start worker processes
+2025/02/16 12:24:11 [notice] 3965#0: start worker process 5484
+2025/02/16 12:24:11 [notice] 4991#0: gracefully shutting down
+2025/02/16 12:24:11 [notice] 4991#0: exiting
+2025/02/16 12:24:11 [notice] 4991#0: exit
+2025/02/16 12:24:11 [notice] 3965#0: signal 17 (SIGCHLD) received from 4991
+2025/02/16 12:24:11 [notice] 3965#0: worker process 4991 exited with code 0
+2025/02/16 12:24:11 [notice] 3965#0: signal 29 (SIGIO) received
+2025/02/16 12:24:31 [info] 5484#0: *3 [lua] collect.lua:1: Package path set successfully, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:31 [info] 5484#0: *3 [lua] collect.lua:9: Source IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:31 [info] 5484#0: *3 [lua] collect.lua:10: Destination IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:31 [info] 5484#0: *3 [lua] collect.lua:11: Timestamp: 1739679871.845, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:36 [info] 5484#0: *3 [lua] collect.lua:1: Package path set successfully, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:36 [info] 5484#0: *3 [lua] collect.lua:9: Source IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:36 [info] 5484#0: *3 [lua] collect.lua:10: Destination IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:36 [info] 5484#0: *3 [lua] collect.lua:11: Timestamp: 1739679876.701, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:39 [info] 5484#0: *3 [lua] collect.lua:1: Package path set successfully, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:39 [info] 5484#0: *3 [lua] collect.lua:9: Source IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:39 [info] 5484#0: *3 [lua] collect.lua:10: Destination IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:39 [info] 5484#0: *3 [lua] collect.lua:11: Timestamp: 1739679879.274, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
+2025/02/16 12:24:39 [info] 5484#0: *3 client 127.0.0.1 closed keepalive connection
