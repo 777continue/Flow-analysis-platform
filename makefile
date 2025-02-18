@@ -5,3 +5,7 @@ nginx:
 	@sudo nginx -p `pwd`/ -c envoy/conf/nginx.conf -s reload
 locust:
 	@locust -f locust/locustfile.py --host=http://example.com
+train:
+	@python model/CNN/main.py
+analyse:
+	@python envoy/script/analyse.py
