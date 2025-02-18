@@ -49,3 +49,6 @@
 2025/02/16 12:24:39 [info] 5484#0: *3 [lua] collect.lua:10: Destination IP: 127.0.0.1, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
 2025/02/16 12:24:39 [info] 5484#0: *3 [lua] collect.lua:11: Timestamp: 1739679879.274, client: 127.0.0.1, server: example.com, request: "GET / HTTP/1.1", host: "example.com"
 2025/02/16 12:24:39 [info] 5484#0: *3 client 127.0.0.1 closed keepalive connection
+2025/02/17 22:18:14 [emerg] 20015#0: open() "/home/continue/Flow-analysis-platform/locust/nginx.conf" failed (2: No such file or directory)
+2025/02/17 22:18:52 [notice] 20078#0: signal process started
+2025/02/17 22:18:52 [alert] 20078#0: kill(3965, 15) failed (3: No such process)
