@@ -1,0 +1,15 @@
+services:
+  envoy:
+    build: .
+    container_name: envoy_with_lua_redis
+    volumes:
+      - ./envoy/conf/envoy.yaml:/etc/envoy/envoy.yaml
+      - ./envoy/script:/etc/envoy/script
+    command: [ "envoy", "-c", "/etc/envoy/envoy.yaml" ]
+    depends_on:
+      - redis
+  redis:
+    image: "redis:latest"
+    ports:
+      - 6379:6379
+    restart: always
