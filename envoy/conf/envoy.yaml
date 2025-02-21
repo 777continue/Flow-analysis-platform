@@ -38,7 +38,7 @@ static_resources:
   clusters:
     - name: backend_cluster
       connect_timeout: 0.5s
-      type: STRICT_DNS
+      type: STATIC
       lb_policy: ROUND_ROBIN
       load_assignment:
         cluster_name: backend_cluster
@@ -47,10 +47,10 @@ static_resources:
               - endpoint:
                   address:
                     socket_address:
-                      address: 127.0.0.1
+                      address: 192.168.229.128
                       port_value: 8080
 admin:
-  access_log_path: "/dev/null"
+  access_log_path: "/tmp/access.log"
   address:
     socket_address:
       address: 127.0.0.1

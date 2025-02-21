@@ -1,6 +1,8 @@
 # 基于官方 Envoy 镜像
 FROM envoyproxy/envoy:v1.27.0
 
+USER root
+
 # 安装 LuaRocks 和编译工具
 RUN apt-get update && apt-get install -y \
     luarocks \

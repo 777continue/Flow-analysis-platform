@@ -9,3 +9,5 @@ train:
 	@python model/CNN/main.py
 analyse:
 	@python envoy/script/analyse.py
+test:
+	@lua envoy/script/test.lua
