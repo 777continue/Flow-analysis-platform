@@ -4,13 +4,16 @@ services:
     ports:
       - 80:80
       - 9901:9901
-    user: root
+    privileged: true
+    cap_add:
+      - CAP_NET_RAW
+      - CAP_NET_ADMIN
     container_name: envoy_with_lua_redis
     volumes:
       - ./envoy/conf/envoy.yaml:/etc/envoy/envoy.yaml
       - ./envoy/script:/etc/envoy/script
       - ./logs:/tmp
-    command: [ "envoy", "-c", "/etc/envoy/envoy.yaml", "--log-level debug", "--log-path /tmp/access.log" ]
+    command: [ "envoy", "-c", "/etc/envoy/envoy.yaml", "--log-level", "error", "--log-path", "/tmp/envoy.log" ]
     depends_on:
       - redis
     networks:
